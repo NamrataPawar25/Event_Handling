@@ -11,12 +11,15 @@ import ChangeHeading from "./components/ChangeHeading";
 import Calculator from "./components/Calculator";
 import Calc from "./components/Calc";
 import Vegetables from "./components/Vegetables"
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   const [isLoggedIn, setisLoggedIn] = useState(true);
   const [user, setName]= useState("Namrata")
   return (
     <>
+    <ContactForm/>
+
     <Vegetables/>
       {isLoggedIn ? (
         <>
