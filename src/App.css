@@ -11,3 +11,17 @@
     flex-wrap: wrap;
     width: 100%;
 }
+.redFont{
+    color: red;
+}
+.greenFont{
+    color: green;
+}
+.greenBlock{
+    background-color: green;
+    color: yellow;
+}
+.blueBlock{
+    background-color: aqua;
+    color: blue;
+}
