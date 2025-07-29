@@ -26,7 +26,7 @@ const Calculator = () => {
         <div style={{margin: "20px"}}>
             <input type="number" onChange={(e) => setN1(e.target.value)} />
             <input type="number" onChange={(e) => setN2(e.target.value)} />
-            <div style={{margin: "10px"}}>{result}</div>
+            <div className="redFont" style={{margin: "10px"}}>{result}</div>
             <button onClick={addition} style={{margin:"5px"}}>+</button>
             <button onClick={substraction} style={{margin:"5px"}}>-</button>
             <button onClick={multiplication} style={{margin:"5px"}}>*</button>
