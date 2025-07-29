@@ -1,0 +1,34 @@
+.contactContainer{
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: aqua
+}
+.formContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border: 1px solid gray;
+}
+
+input[type="submit"]{
+  background-color: #007BFF; /* or any color */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #11b58a;
+}
