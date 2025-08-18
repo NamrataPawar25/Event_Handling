@@ -12,12 +12,16 @@ import Calculator from "./components/Calculator";
 import Calc from "./components/Calc";
 import Vegetables from "./components/Vegetables"
 import ContactForm from "./components/ContactForm/ContactForm";
+import CounterWithReducer from "./components/CounterWithReducer";
+import CounterComponent from "./countReducer/CounterComponent";
 
 function App() {
   const [isLoggedIn, setisLoggedIn] = useState(true);
   const [user, setName]= useState("Namrata")
   return (
     <>
+    <CounterComponent/>
+    <CounterWithReducer/>
     <ContactForm/>
 
     <Vegetables/>
